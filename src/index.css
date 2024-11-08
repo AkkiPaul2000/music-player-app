@@ -1,0 +1,27 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333;
+}
+
+.song-item {
+    padding: 1em;
+    border-bottom: 1px solid #444;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
